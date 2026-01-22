@@ -1,0 +1,24 @@
+[project]
+name = "csci545-assignment1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "alpinedev51", email = "alpinedev51@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.3.3",
+    "pillow>=12.1.0",
+    "ruff>=0.14.13",
+    "streamlit>=1.53.0",
+    "torch>=2.10.0",
+    "torchvision>=0.25.0",
+]
+
+[project.scripts]
+csci545-assignment1 = "csci545_assignment1:main"
+
+[build-system]
+requires = ["uv_build>=0.9.18,<0.10.0"]
+build-backend = "uv_build"
