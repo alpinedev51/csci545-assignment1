@@ -8,7 +8,7 @@ import torch
 from PIL import Image
 from torchvision import models, transforms
 
-from csci545_assignment1.database import DB_FILE, init_db
+from scs.database import DB_FILE, init_db
 
 
 def log_meal(food, weight, macros):

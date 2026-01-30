@@ -30,13 +30,13 @@ You do not need to manually create a virtual environment; `uv` handles dependenc
 
 1.  **Clone/Navigate to the directory:**
     ```bash
-    cd csci545-assignment1
+    cd scs
     ```
 
 2.  **Run the Streamlit Server:**
     Use `uv` to execute the `streamlit` module within the context of the project dependencies.
     ```bash
-    uv run streamlit run src/csci545_assignment1/app.py
+    uv run streamlit run src/scs/app.py
     ```
 
 3.  **Access the Interface:**
@@ -71,12 +71,12 @@ Since ImageNet is a general-purpose dataset, this application implements a **map
 ## 📂 Project Structure
 
 ```text
-csci545-assignment1/
+scs/
 ├── README.md               # You are here
 ├── pyproject.toml          # Dependency definitions
 ├── uv.lock                 # Lock file for reproducible builds
 └── src/
-    └── csci545_assignment1/
+    └── scs/
         ├── app.py          # Main GUI and CV Logic
         └── database.py     # SQLite init and connection logic
 ```

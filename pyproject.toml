@@ -1,7 +1,7 @@
 [project]
-name = "csci545-assignment1"
+name = "scs"
 version = "0.1.0"
-description = "Add your description here"
+description = "Sovereign Culinary Station"
 readme = "README.md"
 authors = [
     { name = "alpinedev51", email = "alpinedev51@users.noreply.github.com" }
@@ -17,7 +17,7 @@ dependencies = [
 ]
 
 [project.scripts]
-csci545-assignment1 = "csci545_assignment1:main"
+scs = "scs:main"
 
 [build-system]
 requires = ["uv_build>=0.9.18,<0.10.0"]
