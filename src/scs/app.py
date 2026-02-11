@@ -105,9 +105,8 @@ def predict_image(image, model, preprocess, categories):
 
 
 def main():
-    st.set_page_config(page_title="Sovereign Prep Station", page_icon="🥗")
-    st.title("Sovereign Whole-Health Station")
-    st.caption("Offline - Local Compute - Privacy First")
+    st.set_page_config(page_title="EasyPrep: Sovereign Whole-Health Culinary Station", page_icon="🥗")
+    st.title("EasyPrep")
 
     init_db()
 
