@@ -167,7 +167,7 @@ def main():
                     m2.metric("Carbs", f"{macros[2]}g")
                     m3.metric("Fats", f"{macros[3]}g")
 
-                    if st.button("Log Portion (Air Gesture)"):
+                    if st.button("Log Portion"):
                         log_meal(detected_food, weight, macros)
                         st.toast(f"Logged {weight}g of {detected_food}!", icon="✅")
                 else:
