@@ -1,4 +1,4 @@
-# Sovereign Whole-Health Station
+# EasyPrep
 
 **An offline-first, privacy-centric meal preparation assistant.**
 
