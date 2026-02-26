@@ -50,6 +50,7 @@ def calculate_contrast():
         ratio = (l1 + 0.05) / (l2 + 0.05)
 
         # Update the UI with result - shows compliance with WCAG standards
+        # This aligns with Accessibility, as this features encourages accessibility of Anki cards.
         result_text = f"Contrast Ratio: {ratio:.2f}:1\n"
         if ratio >= 7:
             result_text += "Passes WCAG AAA (Excellent!)"
@@ -63,7 +64,7 @@ def calculate_contrast():
 
         result_label.config(text=result_text)
 
-        # Show the user what their text will look like on the generated flashbard
+        # Show the user what their text will look like on the generated flashbard. This aligns with Affordance.
         preview_label.config(fg=fg_hex, bg=bg_hex, text="Preview: Flashcard Text")
 
     except ValueError:
